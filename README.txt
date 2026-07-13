@@ -1,0 +1,1 @@
+Add your LinkedIn photo as profile.jpg and resume as resume.pdf.
