@@ -547,3 +547,19 @@ font-size:16px;
     background: #0aa2c0;
     transform: translateY(-5px);
 }
+
+#stats{
+    padding:60px 0;
+    background:#161b22;
+}
+
+#stats h2{
+    font-size:45px;
+    color:#00bfff;
+    font-weight:bold;
+}
+
+#stats p{
+    color:#d1d5db;
+    font-size:18px;
+}
