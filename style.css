@@ -59,11 +59,26 @@ body{
     min-height:100vh;
     display:flex;
     align-items:center;
+    justify-content:center;
     padding-top:90px;
 }
 
+.hero .container{
+    max-width:1200px;
+}
+
 .hero .row{
-    min-height:100vh;
+    width:100%;
+    align-items:center;
+}
+
+.hero .col-lg-6:first-child{
+    padding-right:60px;
+}
+
+.hero .col-lg-6:last-child{
+    display:flex;
+    justify-content:center;
 }
 
 .hero h4{
@@ -83,6 +98,7 @@ body{
 }
 
 .hero p{
+    margin-bottom:30px;
     color:#d1d5db;
     line-height:1.8;
     font-size:18px;
@@ -104,6 +120,9 @@ body{
     0 0 50px #00bfff;
 
     transition:.5s;
+
+    margin-left:auto;
+
 }
 
 .profile-img:hover{
@@ -128,6 +147,10 @@ body{
 
     transition:.4s;
 
+}
+
+.mt-4{
+    margin-top:25px !important;
 }
 
 .btn:hover{
