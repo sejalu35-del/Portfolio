@@ -577,9 +577,9 @@ footer:hover{
 
     padding-right:0;
 
-    margin-top:20px;
-
+    margin: top 40px;
 }
+
 
 .hero .col-lg-6:last-child{
     display:flex;
