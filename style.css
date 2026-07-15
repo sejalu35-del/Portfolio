@@ -577,7 +577,7 @@ footer:hover{
 
     padding-right:0;
 
-    margin: top 40px;
+    margin: top 20px;
 }
 
 
@@ -585,7 +585,7 @@ footer:hover{
     display:flex;
     justify-content:flex-end;
     align-items:center;
-    padding-left:100px;
+    padding-left:70px;
 }
 
 .hero .mt-4{
