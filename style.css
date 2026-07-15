@@ -377,11 +377,19 @@ section{
 
     transition:.4s;
 
+    cursor:pointer;
+
+    border:2px solid transparent;
+
 }
 
 .project-card img:hover{
 
     transform:scale(1.05);
+
+    border-color:#00bfff;
+
+    box-shadow:0 0 25px rgba(0,191,255,.6);
 
 }
 
@@ -412,6 +420,28 @@ section{
 }
 
 /* =========================
+   Certificate Buttons
+========================= */
+
+#certificates .btn{
+    border-radius:30px;
+    padding:10px 20px;
+    font-weight:600;
+    transition:.3s;
+}
+
+#certificates .btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 0 20px rgba(0,191,255,.5);
+}
+
+#certificates .skill-card{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+/* =========================
    Contact
 ========================= */
 
@@ -429,6 +459,27 @@ section{
 
 #contact p:hover{
     color:#00bfff;
+}
+
+.contact-info p{
+    font-size:18px;
+    margin:18px 0;
+}
+
+.contact-info a{
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.contact-info a:hover{
+    color:#00bfff;
+}
+
+.contact-info i{
+    width:30px;
+    font-size:22px;
+    margin-right:8px;
 }
 
 /* =========================
@@ -771,6 +822,8 @@ footer:hover{
 html{
 
     scroll-behavior:smooth;
+
+    scroll-padding-top:90px;
 
 }
 
