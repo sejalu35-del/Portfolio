@@ -582,9 +582,10 @@ footer:hover{
 }
 
 .hero .col-lg-6:last-child{
-
-    margin-bottom:20px;
-
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding-left:40px;
 }
 
 .hero .mt-4{
